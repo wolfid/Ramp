@@ -1,0 +1,15 @@
+Note on Ramp Unit Test Structure
+
+Ramp is designed to provide two dimensional colour ramp data for the testing of graphics environments.
+
+This uses a simple linear range algorithm to specify colours in a given range - this could be more precise if required.
+
+The supplied tests excercise the following conditions:
+
+ 1) Edge cases
+ 2) Minimal linear range
+ 3) Error cases
+
+The linear range tests use known size to allow for simple assertion of correct operation.
+
+Developed using Microsoft Visual Studio 2019 (no extra packages required).
